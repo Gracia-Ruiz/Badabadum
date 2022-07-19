@@ -8,8 +8,11 @@ Incluye relaciones, conexión a mysql, autentificación con ui, gestión de acep
 ## Consideraciones:
 - Necesitamos una versión compatible de [PHP](https://laravel.com/docs/7.x/#server-requirements).
 - Si estamos usando windows, tendremos que habilitar una serie de extensiones en nuestro archivo **php.ini**. No importa si no sabes cuáles son, laravel te arrojará un     error con el nombre exacto de la extensión.
+- Tener instalado **Composer**.
+- Tener instalado **Node.js**.
 - Para lanzar el proyecto en un servidor local sin necesidad de tener nada más instalado, podemos aprovechar el pequeño **Web Server** que trae php para desarrollo.
   Simplemente lo abrimos con el comando **php artisan serve**. 
+
 
 ## Al ser un proyecto Laravel, al clonar, hay que generar varias carpetas y archivos que se encuentran en el .gitignore.
 1. Después de clonar, hay que lanzar el comando **composer install**, dentro del proyecto.
